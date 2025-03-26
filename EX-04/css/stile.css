@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(35, 37, 37);
+}
+div {
+    margin-bottom: 10px;
+    width: 30%; 
+}
+
+.flag {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flag div {
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid rgb(149, 146, 146);  */
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+.fflag {
+    display: grid;
+    flex-wrap: wrap;
+}
+.fflag div {
+    width: 342px;
+    height: 68px;
+    /* border: 1px solid rgb(149, 146, 146);  */
+    margin-block: 0%;
+    box-sizing: border-box;
+}
+.black {
+    background-color: black;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.white {
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
