@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(215, 60, 60);
+    }
+.cerchio{
+    border: 2px solid rgb(182, 41, 154);
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>selector reference</title>
+<link rel="stylesheet" href="css/stile.css">
+<style>
+  .intro {
+    background-color: rgb(0, 255, 208);
+  }
+  #firstname {
+  background-color: rgb(239, 169, 231);
+  }
+  p:first-child {
+  background-color: rgb(163, 120, 243);
+  }
+  li:last-child {
+  background-color: yellow;
+  }
+  p {
+  color: black;
+}
+
+:not(p) {
+  color: rgb(14, 87, 109);
+}
+
+/* Selects the forth li element in a list */
+li:nth-child(4) {
+  background-color: lightgreen;
+}
+  </style>
+</head>
+<body>
+
+<h1>O.B.</h1>
+<h2>be con</h2>
+<div class="intro">
+<ul>
+  <li>call with .(dot)=class attribute(li)</li>
+</ul>
+</div>
+
+<div class="intro">
+    <p id="firstname">My name is Li.(firstname)</p>
+    <p id="hometown">I live in Milan.(p)</p>
+  </div>
+
+  <div>
+    <p>This paragraph is the first child of its parent (p).</p>
+    <p>This paragraph is not the first child of its parent (p).</p>
+    </div>
+
+    <div>
+      <ol>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+      </ol>
+      </div>
+
+      <div>
+        <p>This is a paragraph(p).</p>
+        </div>
+
+        <div>
+          <ul>
+            <li>First list item</li>
+            <li>Second list item</li>
+            <li>Third list item</li>
+            <li>Fourth list item</li>
+            <li>Fifth list item</li>
+          </ul>
+        </div>

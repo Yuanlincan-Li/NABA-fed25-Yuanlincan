@@ -1,0 +1,35 @@
+body{
+    background-color: silver;
+}
+.box-model-test{
+    border:20px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 200px;
+}
+.box-model-test-01{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.box-model-test-02{
+    background-color: rgb(201, 216, 85);
+    box-sizing: content-box;
+}
+a:link{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 0, 38);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 0, 13);
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(0, 255, 145);
+}
+a:focus{
+    color: rgb(38, 37, 35);
+}
